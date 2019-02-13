@@ -1,0 +1,15 @@
+How to run:
+
+	Using makefile:
+		Compile using command "make"
+		Run using "./keyexpansion" or using "make run"
+	Without makefile:
+		Compile using command "gcc -o main.c keyexpansion"
+		Run using command "./keyexpansion"
+
+References:
+	Ideas taken from: https://github.com/kokke/tiny-AES-c/blob/master/aes.c
+		sbox matrix used
+		KeyExpansion method used as template
+	Pseudocode from AES NIST standard (p.20 fig. 11) used as template: https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.197.pdf
+		
